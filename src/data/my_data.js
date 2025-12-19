@@ -248,9 +248,55 @@ const codingProfiles = [
   },
 ];
 
+const skills = [
+  [
+    "Java",
+    "Spring Boot",
+    "Spring AI",
+    "Kafka",
+    "Redis",
+    "MongoDB",
+    "SQL",
+    "REST",
+    "Microservices",
+    "JPA",
+    "Jnit",
+    "Javascript",
+    "React.js",
+    "HLD",
+    "LLD",
+  ],
+  [
+    "LLM",
+    "RAG",
+    "MCP",
+    "Agentic AI",
+    "LangChain",
+    "LangGraph",
+    "HuggingFace",
+    "Python",
+    "AI & ML Ops",
+    "Vibe coding",
+  ],
+  [
+    "Git",
+    "Github",
+    "Docker",
+    "Kubernetes",
+    "Prometheus",
+    "Grafana",
+    "Jenkins",
+    "Argo CD",
+    "Kibana",
+    "Elasticsearch",
+    "Jira",
+  ],
+];
+
 export {
   projects,
   professionalExperiences,
   personalExperiences,
   codingProfiles,
+  skills,
 };

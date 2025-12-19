@@ -25,6 +25,7 @@ import Certifications from "./Certifications.jsx";
 import Hobbies from "./Hobbies.jsx";
 import CodingProfileCard from "./CodingProfileCard.jsx";
 import { codingProfiles } from "../data/my_data.js";
+import { skills } from "../data/my_data.js";
 
 export default function Portfolio() {
   const [dark, setDark] = useState(false);
@@ -80,7 +81,7 @@ export default function Portfolio() {
         </div>
       </header>
 
-      <main className="max-w-6xl mx-auto px-6 pb-24">
+      <main className="max-w-6xl mx-auto px-6">
         <section className="grid lg:grid-cols-2 gap-8 items-center">
           <motion.div
             initial={{ x: -20, opacity: 0 }}
@@ -165,7 +166,7 @@ export default function Portfolio() {
           </motion.div>
         </section>
 
-        <section className="max-w-6xl mx-auto py-20">
+        <section className="py-16">
           <h2 className="mb-8 text-3xl font-bold text-black-900 dark:text-black-100">
             Coding Profiles
           </h2>
@@ -177,8 +178,8 @@ export default function Portfolio() {
           </div>
         </section>
 
-        <section id="projects" className="mt-16">
-          <h2 className="mb-14 text-3xl font-bold text-black-900 dark:text-black-100">
+        <section id="projects" className="py-16">
+          <h2 className="mb-8 text-3xl font-bold text-black-900 dark:text-black-100">
             Personal Projects
           </h2>
           <div className="mt-6 grid md:grid-cols-2 gap-6">
@@ -226,73 +227,28 @@ export default function Portfolio() {
             ))}
           </div>
         </section>
-        <section id="skills" className="mt-16">
-          <h2 className="mb-14 text-3xl font-bold text-black-900 dark:text-black-100">
+        <section id="skills" className="py-16">
+          <h2 className="mb-8 text-3xl font-bold text-black-900 dark:text-black-100">
             Skills & Tech
           </h2>
 
           <div className="grid md:grid-cols-3 gap-6">
             <SkillCard
               title="Full Stack & Distributed Systems"
-              skills={[
-                "Java",
-                "Spring Boot",
-                "Spring AI",
-                "Kafka",
-                "Redis",
-                "MongoDB",
-                "SQL",
-                "REST",
-                "Microservices",
-                "JPA",
-                "Jnit",
-                "Javascript",
-                "React.js",
-                "HLD",
-                "LLD",
-              ]}
+              skills={skills[0]}
             />
-            <SkillCard
-              title="AI & GenAI"
-              skills={[
-                "LLM",
-                "RAG",
-                "MCP",
-                "Agentic AI",
-                "LangChain",
-                "LangGraph",
-                "HuggingFace",
-                "Python",
-                "AI & ML Ops",
-                "Vibe coding",
-              ]}
-            />
-            <SkillCard
-              title="DevOps & Observability"
-              skills={[
-                "Git",
-                "Github",
-                "Docker",
-                "Kubernetes",
-                "Prometheus",
-                "Grafana",
-                "Jenkins",
-                "Argo CD",
-                "Kibana",
-                "Elasticsearch",
-                "Jira",
-              ]}
-            />
+            <SkillCard title="AI & GenAI" skills={skills[1]} />
+            <SkillCard title="DevOps & Observability" skills={skills[2]} />
           </div>
         </section>
-        <section id="professional experience" className="max-w-6xl py-20">
-          <h2 className="mb-14 text-3xl font-bold text-black-900 dark:text-black-100">
+        <section id="professional experience" className="py-16">
+          <h2 className="mb-8 text-3xl font-bold text-black-900 dark:text-black-100">
             Professional Experience (3 years)
           </h2>
           <Timeline experiences={professionalExperiences} />
         </section>
-        <section id="personal experience" className="max-w-6xl">
-          <h2 className="mb-14 text-3xl font-bold text-black-900 dark:text-black-100">
+        <section id="personal experience" className="py-16">
+          <h2 className="mb-8 text-3xl font-bold text-black-900 dark:text-black-100">
             Personal Experiences
           </h2>
           <Timeline experiences={personalExperiences} />
@@ -300,7 +256,7 @@ export default function Portfolio() {
         <Achievements />
         <Certifications />
         <Hobbies />
-        <section id="contact" className="mt-16 mb-12 grid md:grid-cols-2 gap-8">
+        <section id="contact" className="py-16 grid md:grid-cols-2 gap-8">
           <div className="p-6 border rounded">
             <h3 className="text-lg font-semibold">Contact</h3>
             <p className="mt-2 text-sm text-muted-foreground">

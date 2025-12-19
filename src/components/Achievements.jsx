@@ -8,7 +8,7 @@ const achievements = [
 
 export default function Achievements() {
   return (
-    <section className="max-w-6xl mx-auto py-20">
+    <section className="py-16">
       <h2 className="mb-8 text-3xl font-bold text-black-900 dark:text-black-100">
         Achievements
       </h2>
