@@ -114,7 +114,7 @@ export default function Portfolio() {
                 Get in touch
               </a>
               <a
-                href="#"
+                href="https://github.com/NIKHIL12072000"
                 className="px-4 py-2 rounded-md inline-flex items-center gap-2 border"
                 aria-label="Github"
               >
@@ -122,9 +122,9 @@ export default function Portfolio() {
                 <Github size={14} /> GitHub{" "}
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/nikhildachepally/"
                 className="px-4 py-2 rounded-md inline-flex items-center gap-2 border"
-                aria-label="Github"
+                aria-label="Linkedin"
               >
                 {" "}
                 <Linkedin size={14} /> LinkedIn{" "}
@@ -268,10 +268,15 @@ export default function Portfolio() {
               </div>
               <div className="flex items-center gap-3">
                 <Linkedin size={16} />{" "}
-                <a href="#">linkedin.com/in/nikhildachepally</a>
+                <a href="https://www.linkedin.com/in/nikhildachepally/">
+                  linkedin.com/in/nikhildachepally
+                </a>
               </div>
               <div className="flex items-center gap-3">
-                <Github size={16} /> <a href="#">github.com/NIKHIL12072000</a>
+                <Github size={16} />{" "}
+                <a href="https://github.com/NIKHIL12072000">
+                  github.com/NIKHIL12072000
+                </a>
               </div>
             </div>
           </div>
