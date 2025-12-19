@@ -115,6 +115,7 @@ export default function Portfolio() {
               </a>
               <a
                 href="https://github.com/NIKHIL12072000"
+                target="_blank"
                 className="px-4 py-2 rounded-md inline-flex items-center gap-2 border"
                 aria-label="Github"
               >
@@ -123,6 +124,7 @@ export default function Portfolio() {
               </a>
               <a
                 href="https://www.linkedin.com/in/nikhildachepally/"
+                target="_blank"
                 className="px-4 py-2 rounded-md inline-flex items-center gap-2 border"
                 aria-label="Linkedin"
               >
@@ -268,13 +270,16 @@ export default function Portfolio() {
               </div>
               <div className="flex items-center gap-3">
                 <Linkedin size={16} />{" "}
-                <a href="https://www.linkedin.com/in/nikhildachepally/">
+                <a
+                  href="https://www.linkedin.com/in/nikhildachepally/"
+                  target="_blank"
+                >
                   linkedin.com/in/nikhildachepally
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <Github size={16} />{" "}
-                <a href="https://github.com/NIKHIL12072000">
+                <a href="https://github.com/NIKHIL12072000" target="_blank">
                   github.com/NIKHIL12072000
                 </a>
               </div>
