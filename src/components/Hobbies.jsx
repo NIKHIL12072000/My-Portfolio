@@ -1,23 +1,6 @@
-import { Heart, BookOpen, Dumbbell } from "lucide-react";
+import { Heart, BookOpen, Dumbbell, Home } from "lucide-react";
 import { motion } from "framer-motion";
-
-const hobbies = [
-  {
-    icon: <BookOpen size={22} />,
-    title: "Reading",
-    desc: "Philosophy, Self-improvement, Knowledge Gaining and Other Fiction Books. Would love to Blog about learnings.",
-  },
-  {
-    icon: <Dumbbell size={22} />,
-    title: "Fitness & Sports",
-    desc: "Regular workouts and staying physically active. Would love playing Tennis",
-  },
-  {
-    icon: <Heart size={22} />,
-    title: "Learning New Technologies",
-    desc: "Exploring AI, System design, and Emerging tech like Quantum Computing. Would love to build projects on Real life problems and simplify lives.",
-  },
-];
+import { hobbies } from "../data/my_data";
 
 export default function Hobbies() {
   return (
@@ -38,7 +21,13 @@ export default function Hobbies() {
                        bg-white dark:bg-gray-900 p-6 text-center"
           >
             <div className="mb-3 flex justify-center text-indigo-600">
-              {hobby.icon}
+              {hobby.title == "Reading" ? <BookOpen size={22} /> : ""}
+              {hobby.title == "Fitness & Sports" ? <Dumbbell size={22} /> : ""}
+              {hobby.title == "Learning New Technologies" ? (
+                <Heart size={22} />
+              ) : (
+                ""
+              )}
             </div>
             <h3 className="font-semibold text-gray-900 dark:text-gray-100">
               {hobby.title}

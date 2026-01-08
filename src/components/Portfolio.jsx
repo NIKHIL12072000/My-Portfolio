@@ -26,8 +26,10 @@ import Hobbies from "./Hobbies.jsx";
 import CodingProfileCard from "./CodingProfileCard.jsx";
 import { codingProfiles } from "../data/my_data.js";
 import { skills } from "../data/my_data.js";
+import { useNavigate } from "react-router-dom";
 
 export default function Portfolio() {
+  const navigate = useNavigate();
   const [dark, setDark] = useState(false);
 
   return (
@@ -46,22 +48,14 @@ export default function Portfolio() {
         </div>
         <div className="flex items-center gap-3">
           <Toaster position="bottom-center" />
-          <button
-            onClick={() =>
-              toast("📝 Blogs coming soon!", {
-                duration: 5000,
-                style: {
-                  borderRadius: "8px",
-                  background: "#1f2937",
-                  color: "#fff",
-                },
-              })
-            }
+          <a
+            target="_blank"
+            href="/blogs"
             className="rounded-lg bg-indigo-600 px-5 py-2 text-white 
              hover:bg-indigo-700 transition"
           >
             Read My Blogs →
-          </button>
+          </a>
           <button
             aria-label="Toggle theme"
             onClick={() => setDark(!dark)}

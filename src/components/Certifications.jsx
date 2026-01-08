@@ -1,44 +1,6 @@
 import { Award } from "lucide-react";
 import { motion } from "framer-motion";
-
-const certifications = [
-  {
-    title: "Full Stack Web Development",
-    issuer: "Acciojob / Coding Shuttle / Bosscoder",
-  },
-  {
-    title: "System Design, Microservices",
-    issuer: "Bosscoder / Udemy / Namaste Dev",
-  },
-  {
-    title: "Devops with Multi-Cloud - AWS, Azure, AI Ops & ML Ops",
-    issuer: "Tech Aspirants",
-  },
-  {
-    title: "AI & GenAI Foundations",
-    issuer: "NVIDIA / Udemy / Coursera / GFG / Pantech",
-  },
-  {
-    title: "Competitive Programming",
-    issuer: "GFG",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    issuer: "Acciojob / Bosscoder",
-  },
-  {
-    title: "Database Programming with SQL",
-    issuer: "Oracle",
-  },
-  {
-    title: "Java Programming",
-    issuer: "HackerRank / Udemy",
-  },
-  {
-    title: "Software Engineering",
-    issuer: "Udemy",
-  },
-];
+import { certifications } from "../data/my_data";
 
 export default function Certifications() {
   return (

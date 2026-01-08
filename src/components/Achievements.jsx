@@ -1,10 +1,6 @@
 import { Trophy } from "lucide-react";
 import { motion } from "framer-motion";
-
-const achievements = [
-  "Deployed Edutech Android Application and achieved 1 Lakh downloads in 8 months",
-  "Achieved Golden Badge in Problem Solving on HackerRank",
-];
+import { achievements } from "../data/my_data";
 
 export default function Achievements() {
   return (

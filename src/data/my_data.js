@@ -293,10 +293,72 @@ const skills = [
   ],
 ];
 
+const certifications = [
+  {
+    title: "Full Stack Web Development",
+    issuer: "Acciojob / Coding Shuttle / Bosscoder",
+  },
+  {
+    title: "System Design, Microservices",
+    issuer: "Bosscoder / Udemy / Namaste Dev",
+  },
+  {
+    title: "Devops with Multi-Cloud - AWS, Azure, AI Ops & ML Ops",
+    issuer: "Tech Aspirants",
+  },
+  {
+    title: "AI Foundations, Gen AI & Agentic AI",
+    issuer: "NVIDIA / Udemy / Coursera / GFG / Pantech",
+  },
+  {
+    title: "Competitive Programming",
+    issuer: "GFG",
+  },
+  {
+    title: "Data Structures & Algorithms",
+    issuer: "Acciojob / Bosscoder",
+  },
+  {
+    title: "Database Programming with SQL",
+    issuer: "Oracle /GFG",
+  },
+  {
+    title: "Java Programming",
+    issuer: "HackerRank / Udemy / GFG",
+  },
+  {
+    title: "Software Engineering",
+    issuer: "Udemy",
+  },
+];
+
+const achievements = [
+  "Deployed Edutech Android Application and achieved 1 Lakh downloads in 8 months",
+  "Achieved Golden Badge in Problem Solving on HackerRank",
+];
+
+const hobbies = [
+  {
+    title: "Reading",
+    desc: "Philosophy, Self-improvement, Knowledge Gaining and Other Fiction Books. Would love to Blog about learnings.",
+  },
+  {
+    title: "Fitness & Sports",
+    desc: "Regular workouts and staying physically active. Would love playing Tennis",
+  },
+  {
+    title: "Learning New Technologies",
+    desc: "Exploring AI, System design, and Emerging tech like Quantum Computing. Would love to build projects on Real life problems and simplify lives.",
+  },
+];
+
 export {
   projects,
   professionalExperiences,
   personalExperiences,
   codingProfiles,
   skills,
+  certifications,
+  achievements,
+  hobbies,
 };
