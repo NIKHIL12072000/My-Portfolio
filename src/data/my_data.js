@@ -30,8 +30,8 @@ const projects = [
     repo: "#",
   },
   {
-    title: "Airbnb Clone",
-    desc: "Production Ready Backend app",
+    title: "Travel Booking System Backend Clone",
+    desc: "Production‑ready travel booking backend clone with listings and search, dynamic pricing, real‑time availability, reservations, payments, messaging, reviews, and host/guest dashboards—built.",
     tech: [
       "Spring Boot",
       "MongoDB",
@@ -53,8 +53,8 @@ const projects = [
     repo: "#",
   },
   {
-    title: "Twitter Clone",
-    desc: "Distributed backend system of Twitter",
+    title: "Professional Networking System Backend Clone",
+    desc: "Production‑ready professional networking backend clone with user profiles, connections, feeds, posts, comments, likes, messaging, notifications, search, and recommendation engine.",
     tech: [
       "Spring Boot",
       "MongoDB",
@@ -75,25 +75,6 @@ const projects = [
       "Notifications",
       "Docker",
       "Kubernetes",
-    ],
-    url: "#",
-    repo: "#",
-  },
-  {
-    title: "B.Tech Library",
-    desc: "Library App and Website for B.Tech Students",
-    tech: [
-      "Spring Boot",
-      "MongoDB",
-      "REST",
-      "JPA",
-      "Google OAuth",
-      "JWT Authentication",
-      "JUnit",
-      "MVC",
-      "Swagger",
-      "Sessions",
-      "Spring Security",
     ],
     url: "#",
     repo: "#",
