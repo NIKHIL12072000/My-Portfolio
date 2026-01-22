@@ -1,6 +1,6 @@
 const projects = [
   {
-    title: "Code Genie",
+    title: "Code Genie – AI SaaS Platform  ",
     desc: "Full Stack Web platform that generates Code on just user input.",
     tech: [
       "React",
@@ -113,8 +113,9 @@ const professionalExperiences = [
       {
         name: "DC Stocking",
         description:
-          "Stocking and Unstocking of products at Distribution Centres based on various scenarios.   ",
+          "Modernization of Mainframe system to Web Application for supply chain and replenishment operations at distribution centres",
         impact: [
+          "Stocking and Unstocking of products at Distribution Centres based on various scenarios.   ",
           "Handled loading of huge data on to the website using Ag-Grid Lazy loading tables in front end  and created API End point for page wise loading in the backend for the same.",
           "Built Microservices to handle various unique functionalities and exposed them across the company for cross-team leveraging as it can reduce redundant development of services.",
           "Migrated from Legacy DB2 Tables to Oracle and MongoDB.",

@@ -334,7 +334,7 @@ export default function Portfolio() {
               <Instagram size={16} /> Instagram
             </a>
             <a
-              href="https://wa.me/919133557596"
+              href="https://wa.me/918121427015"
               target="_blank"
               aria-label="WhatsApp"
               className="inline-flex items-center gap-2"
