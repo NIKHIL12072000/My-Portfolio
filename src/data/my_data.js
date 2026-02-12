@@ -103,7 +103,7 @@ const professionalExperiences = [
       },
       {
         name: "SDC Automation",
-        description: "Automation of Supply Demand Chain Processes",
+        description: "Automation of Shifting Distribution Centers Processes",
         impact: [
             "Designed API for Unstocking at Hub DC's and Stocking at Spoke DC's based on 4 scenarios for the items and dates mentioned in the file",
           "Implemented Uploading, Downloading and Processing of Huge CSV Files using Kafka Producers and Consumers",
